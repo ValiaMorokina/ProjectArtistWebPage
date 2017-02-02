@@ -1,0 +1,158 @@
+
+#bootstrap-overrides h1,h2 {
+	color: #008080
+}
+
+#navbar-site{
+	color: #ffffff;
+	background-color: #008080;
+	border-color: #008080;
+	font-weight: bold;
+}
+			
+#name{
+	color: #ffffff;
+}
+
+#menu li a{
+	color: #ffffff;
+}
+
+#menu li a:hover{
+	color: #000033;
+}
+
+#menu li.active a:hover{
+	color:  #ff751a;
+}
+
+#DropdownMenu{
+	background-color: #008080;
+	font-weight: bold;
+}
+
+.feature, .about {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#myPhoto{
+	margin-right: 15px;
+	margin-bottom: 10px;
+	border: 1px solid grey;
+	width: 140px;
+	height: 140px;
+	-webkit-border-radius: 12px 0 12px 0;
+	-moz-border-radius: 12px 0 12px 0;
+	border-radius: 12px 0 12px 0;
+}
+
+.about-me{
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-box-shadow: -1px -1px 10px #000000;
+	-moz-box-shadow: -1px -1px 10px #000000;
+	box-shadow: -1px -1px 10px #000000;
+	background-image: -moz-linear-gradient(top, #20B2AA, #FFE4C4);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #20B2AA), color-stop(1.0, #FFE4C4));
+	background-color: #DDDDDD;
+	padding: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12pt;
+	color: #191970;
+	text-align: left;
+}
+
+.about-my-work{
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-box-shadow: -1px -1px 10px #000000;
+	-moz-box-shadow: -1px -1px 10px #000000;
+	box-shadow: -1px -1px 10px #000000;
+	background-image: -moz-linear-gradient(top, #20B2AA, #FFE4C4);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #20B2AA), color-stop(1.0, #FFE4C4));
+	background-color: #DDDDDD;
+	padding: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12pt;
+	color: #191970;
+	text-align: left;
+}
+
+#btnGetInTouch{
+	margin-top: 1%;
+}
+
+/* Painting Slider */
+.paintingSlider{
+	margin-top: 1%;
+	background-color: #e6ccff;
+}
+
+.paintingSlider h2{
+	text-align: center;
+}
+
+#Item-Active {
+	align-content: center;
+}
+
+#btnSeeWork{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.myPhotography{
+	margin-top: 1%;
+	background-color: #e6ccff;
+}
+
+.myPhotography h2{
+	text-align: center;
+}
+
+.contacts{
+	background-color: #e6ccff;
+}
+
+.myServices{
+	background-color: #ffbf80;
+}
+
+#googleMap{
+	height:400px;
+	width:100%;
+}
+
+footer{
+	background-color: #008080;
+	color: white;
+	padding: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+	
+.social{
+	padding-left: 55px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.social a{
+	text-decoration: none;
+	color: yellow;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+
+  
