@@ -1,1 +1,1 @@
-# Project-ArtistWebPage
+# ProjectArtistWebPage
